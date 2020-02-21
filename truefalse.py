@@ -1,4 +1,5 @@
-# Old code
+# START Old code
+#
 # day = "Friday"
 # temperature = 30
 # raining = False
@@ -12,6 +13,8 @@
 #     print("True")
 # else:
 #     print("False")
+#
+# END Old code
 
 name = input("Please enter your name: ")
 # if name:
