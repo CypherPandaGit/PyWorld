@@ -1,5 +1,8 @@
 # PyWorld
 
+23.Feb 2020
+- Functions are sometimes really confusing, newbie problems :))
+
 22.Feb 2020
 - First Linux commit
 
