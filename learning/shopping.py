@@ -1,0 +1,1 @@
+shopping_list = ["milk", "pasta", "egg", "spam", "bread", "rice"]
