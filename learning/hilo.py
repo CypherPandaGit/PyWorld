@@ -6,6 +6,10 @@ input("Press ENTER key to start")
 
 guesses = 1
 while True:
+    print("\t==================================")
+    print("\tGuessing in the range of {0} to {1}".format(low, high))
+    print("\t==================================")
+
     guess = low + (high - low) // 2
     high_low = input("My guess is {}. Should i guess higher or lower? "
                      "Enter h or l, or c if my guess was correct "
