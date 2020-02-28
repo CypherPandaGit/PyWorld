@@ -13,3 +13,12 @@ while True:
 
     if high_low == "h":
         # Guess higher. The low end of the range becomes 1 greater than the guess.
+
+    elif high_low == "l":
+        # Guess lower. The high end of the range becomes one less than the guess.
+
+    elif high_low == "c":
+        print("I got it in {} guesses!".format(guesses))
+
+    else:
+        print("Please enter h, l or c")
