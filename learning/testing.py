@@ -1,7 +1,7 @@
-pinum = 0
+import math
 
-def calculation():
-    pinum = 22 / 7
-    return pinum
+def logarithm(x):
+    return math.log(x, 2)
 
-print(calculation() + 20)
+print(logarithm(10))
+print(logarithm(33))
