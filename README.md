@@ -1,5 +1,11 @@
 # PyWorld
 
+1.Mär 2020
+- Handling errors, debugging etc.
+
+25.Feb 2020
+- Loops, Lists, while, if
+
 23.Feb 2020
 - Functions are sometimes really confusing, newbie problems :))
 
