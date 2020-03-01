@@ -1,10 +1,7 @@
-name = ""
+pinum = 0
 
-while True:
-    name = input("Please enter your name: ")
+def calculation():
+    pinum = 22 / 7
+    return pinum
 
-    if name == "Roman":
-        break
-
-    print("That's not your name, {}.".format(name))
-print("That's your name.")
+print(calculation() + 20)
