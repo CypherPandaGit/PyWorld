@@ -7,10 +7,8 @@ def menu():
     print("\t5: Go to bed")
     print("\t0: Exit")
 
-menu()
-
+choice = "-"
 while True:
-    choice = input()
 
     if choice == "0":
         break
@@ -18,3 +16,5 @@ while True:
         print("You chose {}".format(choice))
     else:
         menu()
+
+    choice = input()
