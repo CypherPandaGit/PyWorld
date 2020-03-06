@@ -1,10 +1,10 @@
-print("How many cats do you have?")
-cats = input()
+spam = "Hello"
+spam = [10, 20 , 30]
 
-try:
-    if int(cats) >= 4:
-        print("That's a lot of cats.")
-    else:
-        print("That is not that many cats.")
-except ValueError:
-    print("You did not enter a number.")
+spam[1] = "Hello"
+
+print(spam)
+
+spam[1:3] = ['cat', 'dog', 'mouse']
+
+print(spam)
