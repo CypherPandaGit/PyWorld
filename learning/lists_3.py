@@ -13,3 +13,5 @@ print(menu)
 for meal in menu:
     if not "spam" in meal:
         print(meal)
+        for item in meal:
+            print(item)
