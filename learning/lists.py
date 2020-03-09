@@ -24,6 +24,13 @@ print("len()")
 print(len(numbers))
 
 print("--------------")
-print("numbers.sort")
+print("print(sorted(numbers))")
+print(sorted(numbers))
+
+print("numbers_in_order = sorted(numbers)")
+numbers_in_order = sorted(numbers)
+print(numbers_in_order)
+
+print("numbers.sort()")
 numbers.sort()
 print(numbers)
