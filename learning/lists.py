@@ -26,13 +26,13 @@ print("len()")
 print(len(numbers))
 
 print("--------------")
-print("print(sorted(numbers))")
+print("print(sorted(numbers))") # Not permanently sorted in numbers
 print(sorted(numbers))
 
-print("numbers_in_order = sorted(numbers)")
+print("numbers_in_order = sorted(numbers)") # Not permanently sorted too
 numbers_in_order = sorted(numbers)
 print(numbers_in_order)
 
-print("numbers.sort()")
+print("numbers.sort()") # Permanently sorted in numbers
 numbers.sort()
 print(numbers)
