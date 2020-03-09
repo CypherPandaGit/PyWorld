@@ -1,7 +1,10 @@
 # PyWorld
 
+10.Mär 2020
+- Tuples
+
 7.Mär 2020
-- Lists, Ranges and Tuples
+- Lists, Ranges
 
 1.Mär 2020
 - Handling errors, debugging etc.
