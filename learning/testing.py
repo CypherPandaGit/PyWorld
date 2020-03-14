@@ -9,12 +9,14 @@
 #
 # print(spam)
 
+#------------------------------------
 
 # spam = [10, 20, 30]
 # print(spam)
 # spam[1:3] = ["CAT", "MOUSE", "DOG"]
 # print(spam)
 
+#------------------------------------
 
 # for i in range(4):
 #     print(i)
@@ -22,6 +24,7 @@
 # my_list = list(range(5))
 # print(my_list)
 
+#------------------------------------
 
 # supplies = ['Apfel', 'Birne', 'Erdbeere', 'Himbeere']
 # for i in range(len(supplies)):
@@ -31,6 +34,7 @@
 # size, color, disposition = 'skinny', 'brown', 'quiet'
 # print(size, disposition, color)
 
+#------------------------------------
 
 # spam = ['Apfel', 'Birne', 'Erdbeere', 'Himbeere']
 # print(spam.index('Erdbeere'))
