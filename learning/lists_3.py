@@ -21,6 +21,6 @@ import copy
 spam = ['A', 'B', 'C', 'D'] # list
 # spam = cheese # this is just reference to spam list
 cheese = copy.deepcopy(spam) # copy spam list to cheese
-
+# modifying cheese list now does not modify spam list
 print(cheese)
 print(spam)
