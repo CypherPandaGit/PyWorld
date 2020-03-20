@@ -21,3 +21,9 @@ imelda = "More Mayhem", "Imelda May", 2011, (
 # print("{}, {}, {}".format(imelda[0], imelda[1], imelda[2]))
 # print("{}, {}, {}".format(imelda[3][0], imelda[3][1], imelda[3][2]))
 
+title, artist, year, track = imelda
+print(title)
+print(artist)
+print(year)
+for song in track:
+    print("\t", song)
