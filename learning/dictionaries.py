@@ -6,3 +6,8 @@ fruit = {"orange": "a sweet, orange, citrus fruit",
 
 print(fruit)
 print(fruit["lemon"])
+
+fruit["pear"] = "an odd shaped apple"
+print(fruit)
+
+print(fruit["pear"])
