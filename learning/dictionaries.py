@@ -11,3 +11,7 @@ fruit["pear"] = "an odd shaped apple"
 print(fruit)
 
 print(fruit["pear"])
+
+fruit.clear()
+
+print(fruit)
