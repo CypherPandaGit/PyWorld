@@ -1,9 +1,6 @@
-
 my_list = ["a", "b", "c", "d"]
+letters = "abcdefghijklmnopqrstuvwxyz"
 
 
-newString = ''
-for c in my_list:
-    newString += c + ', '
-
+newString = ', '.join(letters)
 print(newString)
