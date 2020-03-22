@@ -25,7 +25,16 @@ print(fruit)
 #         print("We don't have a " + dict_key)
 
 
-ordered_keys = list(fruit.keys())
-ordered_keys.sort()
-for f in ordered_keys:
-    print(f + " - " + fruit[f])
+# ordered_keys = list(fruit.keys())
+# ordered_keys.sort()
+
+# ordered_keys = sorted(list(fruit.keys()))
+# for f in ordered_keys:
+#     print(f + " - " + fruit[f])
+
+# for f in sorted(fruit.keys()):
+#     print(f + " - " + fruit[f])
+
+print(fruit.keys())
+
+print(fruit.values())
