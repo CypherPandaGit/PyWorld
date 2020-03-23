@@ -32,7 +32,7 @@ while True:
     if loc == 0:
         break
 
-    direction = input("Available exits are " + availableExits).upper()
+    direction = input("Available exits are " + availableExits + " ").upper()
     print()
     if direction in exits[loc]:
         loc = exits[loc][direction]
