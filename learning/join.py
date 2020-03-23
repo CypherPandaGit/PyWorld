@@ -21,3 +21,19 @@ exits = [{"Q": 0},
          {"W": 2, "S": 1, "Q": 0}]
 
 loc = 1
+while True:
+    availableExits = ""
+    for direction in exits[loc].keys():
+        availableExits += direction + ", "
+
+    print(locations[loc])
+
+    if loc == 0:
+        break
+
+    direction = input("Available exits are " + availableExits).upper()
+    print()
+    if direction in exits[loc]:
+        loc = exits[loc][direction]
+    else:
+        print("You cannot go in the direction")
