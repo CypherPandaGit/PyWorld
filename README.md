@@ -1,5 +1,12 @@
 # PyWorld
 
+26.Mär 2020
+- It's time to learn some front-end things.
+
+25.Mär 2020
+- I created the project Skrapy. 
+- It took me a couple of days, because of learning, searching and reading, but I learned a lot of new things.
+
 10.Mär 2020
 - Tuples
 
