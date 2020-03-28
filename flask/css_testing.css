@@ -1,12 +1,11 @@
-.first_div{
-	color: blue;
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-family: monospace;
+	text-align: center;
 }
 
-.second_div{
-	background: black;
-	color: grey;
-}
-
-#single_par{
-	color: red;
+p{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
 }
