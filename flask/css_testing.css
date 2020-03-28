@@ -1,10 +1,12 @@
-body{
-	background: #999999;
+.first_div{
+	color: blue;
 }
 
-div{
-	background: #666666;
-	border: #333333;
-	border-width: 5px;
-	border-style: solid;
+.second_div{
+	background: black;
+	color: grey;
+}
+
+#single_par{
+	color: red;
 }
