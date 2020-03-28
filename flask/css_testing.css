@@ -1,11 +1,10 @@
-h1{
-	color: #233d66;
+body{
+	background: #999999;
 }
 
-li{
-	color: rgb(99, 111, 180);
-}
-
-p{
-	color: rgba(99, 111, 180, 1);
+div{
+	background: #666666;
+	border: #333333;
+	border-width: 5px;
+	border-style: solid;
 }
