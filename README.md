@@ -1,5 +1,8 @@
 # PyWorld
 
+29.Mär 2020
+- Bootstraping
+
 26.Mär 2020
 - It's time to learn some front-end things.
 
