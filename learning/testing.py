@@ -58,3 +58,29 @@ def eggs(someParameter):
 spam = [1, 2, 3]
 eggs(spam)
 print(spam)
+
+
+# ------------------------------------
+
+# LEGB RULE
+
+# LOCAL
+def report():
+    # LOCAL ASSIGNMENT!!!
+    x = 'local'
+    print(x)
+
+# ENCLOSING
+x = 'THIS IS GLOBAL LEVEL'
+
+def enclosing():
+    x = 'Enclosing level'
+
+    def inside():
+        print(x)
+
+    inside()
+
+# GLOBAL
+# BUILT IN
+
