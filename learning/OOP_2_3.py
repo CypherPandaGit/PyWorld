@@ -53,13 +53,13 @@ print(acct1)
 
 
 # 3. Show the account owner attribute
-acct1.owner
+print(acct1.owner)
 
 
 
 
 # 4. Show the account balance attribute
-acct1.balance
+print(acct1.balance)
 
 
 
