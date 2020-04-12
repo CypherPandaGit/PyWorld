@@ -52,34 +52,62 @@
 #------------------------------------
 
 
-def eggs(someParameter):
-    someParameter.append('Hello')
-
-spam = [1, 2, 3]
-eggs(spam)
-print(spam)
+# def eggs(someParameter):
+#     someParameter.append('Hello')
+#
+# spam = [1, 2, 3]
+# eggs(spam)
+# print(spam)
 
 
 # ------------------------------------
 
-# LEGB RULE
+# # LEGB RULE
+#
+# # LOCAL
+# def report():
+#     # LOCAL ASSIGNMENT!!!
+#     x = 'local'
+#     print(x)
+#
+# # ENCLOSING
+# x = 'THIS IS GLOBAL LEVEL'
+#
+# def enclosing():
+#     x = 'Enclosing level'
+#
+#     def inside():
+#         print(x)
+#
+#     inside()
+#
+# # GLOBAL
+# # BUILT IN
 
-# LOCAL
-def report():
-    # LOCAL ASSIGNMENT!!!
-    x = 'local'
-    print(x)
+# -------------------------------------
 
-# ENCLOSING
-x = 'THIS IS GLOBAL LEVEL'
+# phone_ext = {'david':1456, 'brad':1145}
+# print(phone_ext)
+# print(list(phone_ext.keys()))
+# print(phone_ext.values())
+# print(list(phone_ext.values()))
+# print('Hello Pikachu', end=' :)')
 
-def enclosing():
-    x = 'Enclosing level'
+# counter = 1
+# while counter <= 5:
+#     print('Hi')
+#     counter = counter + 1
 
-    def inside():
-        print(x)
+# for item in [1, 2, 3, 4, 5]:
+#     print(item**3)
+#
 
-    inside()
+list=[]
 
-# GLOBAL
-# BUILT IN
+for i in range(1,11):
+    list.append(i * i)
+
+print(list)
+
+list_2=[i * i for i in range(1,11)]
+print(list_2)
