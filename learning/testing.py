@@ -102,12 +102,13 @@
 #     print(item**3)
 #
 
-list=[]
+# list=[]
+#
+# for i in range(1,11):
+#     list.append(i * i)
+#
+# print(list)
+#
+# list_2=[i * i for i in range(1,11)]
+# print(list_2)
 
-for i in range(1,11):
-    list.append(i * i)
-
-print(list)
-
-list_2=[i * i for i in range(1,11)]
-print(list_2)
