@@ -1,5 +1,3 @@
-
-
 class Computer:
 
     def __init__(self, cpu, ram, hdd):
