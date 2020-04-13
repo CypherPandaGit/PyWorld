@@ -111,4 +111,17 @@
 #
 # list_2=[i * i for i in range(1,11)]
 # print(list_2)
+#-------------------------------------
 
+import random
+
+nums = [23, 43, 56, 87,24, 45, 93]
+print(nums)
+
+i = 0
+while i < 10:
+    ran = random.randint(1, 40)
+    nums.append(ran)
+    i += 1
+
+print(nums)
