@@ -49,7 +49,7 @@
 # spam.sort()
 # print(spam)
 
-#------------------------------------
+# ------------------------------------
 
 
 # def eggs(someParameter):
@@ -111,17 +111,24 @@
 #
 # list_2=[i * i for i in range(1,11)]
 # print(list_2)
-#-------------------------------------
+# -------------------------------------
 
-import random
+# import random
 
-nums = [23, 43, 56, 87,24, 45, 93]
-print(nums)
+# nums = [23, 43, 56, 87,24, 45, 93]
+# print(nums)
 
+# i = 0
+# while i < 10:
+#     ran = random.randint(1, 40)
+#     nums.append(ran)
+#     i += 1
+
+# print(nums)
+
+h = '#'
 i = 0
-while i < 10:
-    ran = random.randint(1, 40)
-    nums.append(ran)
-    i += 1
 
-print(nums)
+for i in range(10):
+    print(h * (10 - i))
+    i += 1
