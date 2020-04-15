@@ -126,9 +126,20 @@
 
 # print(nums)
 
-h = '#'
-i = 0
+# h = '#'
+# i = 0
+#
+# for i in range(10):
+#     print(h * (10 - i))
+#     i += 1
 
-for i in range(10):
-    print(h * (10 - i))
+i = 1
+
+while i <= 5:
+    print('Ice cream ', end='')
+    j = 1
+    while j <= 5:
+        print('is good ', end='')
+        j += 1
     i += 1
+    print()
