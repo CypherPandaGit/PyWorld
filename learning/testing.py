@@ -156,7 +156,7 @@
 
 from array import *
 
-values = array('i', [5,3,7,-2,9])
+values = array('i', [5, 3, 7, -2, 9])
 
 new_values = array(values.typecode, (a for a in values))
 
