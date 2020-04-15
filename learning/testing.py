@@ -145,11 +145,29 @@
 #     print()
 # -------------------------------------------
 
-i = 0
+# i = 0
+#
+# for i in range(1, 101):
+#     if i%3 == 0:
+#         continue
+#     print(i)
 
-for i in range(1, 101):
-    if i%3 == 0:
-        continue
-    print(i)
+# -------------------------------------------
+
+from array import *
+
+values = array('i', [5,3,7,-2,9])
+
+new_values = array(values.typecode, (a for a in values))
+
+print(values)
+print(values.buffer_info())
+print(values.typecode)
+
+values.reverse()
+print(values)
+
+for i in range(len(values)):
+    print(values[i])
 
 # -------------------------------------------
