@@ -154,20 +154,48 @@
 
 # -------------------------------------------
 
-from array import *
-
-values = array('i', [5, 3, 7, -2, 9])
-
-new_values = array(values.typecode, (a for a in values))
-
-print(values)
-print(values.buffer_info())
-print(values.typecode)
-
-values.reverse()
-print(values)
-
-for i in range(len(values)):
-    print(values[i])
+# from array import *
+#
+# values = array('i', [5, 3, 7, -2, 9])
+#
+# new_values = array(values.typecode, (a for a in values))
+#
+# print(values)
+# print(values.buffer_info())
+# print(values.typecode)
+#
+# values.reverse()
+# print(values)
+#
+# for i in range(len(values)):
+#     print(values[i])
 
 # -------------------------------------------
+
+from array import *
+
+# creating array
+arr = array('i', [])
+
+n = input('Please insert number of inputs: ')
+
+# inserting numbers to array
+for i in range(int(n)):
+    x = int(input('please insert value: '))
+    arr.append(x)
+
+print(arr)
+
+
+search = int(input('Search your number: '))
+k = 0
+
+# searching number through array
+for value in arr:
+    if value == search:
+        print(k)
+        break
+
+    k += 1
+
+# --------------------------------------------
