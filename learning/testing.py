@@ -172,30 +172,33 @@
 
 # -------------------------------------------
 
-from array import *
-
-# creating array
-arr = array('i', [])
-
-n = input('Please insert number of inputs: ')
-
-# inserting numbers to array
-for i in range(int(n)):
-    x = int(input('please insert value: '))
-    arr.append(x)
-
-print(arr)
-
-
-search = int(input('Search your number: '))
-k = 0
-
-# searching number through array
-for value in arr:
-    if value == search:
-        print(k)
-        break
-
-    k += 1
+# from array import *
+#
+# # creating array
+# arr = array('i', [])
+#
+# n = input('Please insert number of inputs: ')
+#
+# # inserting numbers to array
+# for i in range(int(n)):
+#     x = int(input('please insert value: '))
+#     arr.append(x)
+#
+# print(arr)
+#
+#
+# search = int(input('Search your number: '))
+# k = 0
+#
+# # searching number through array
+# for value in arr:
+#     if value == search:
+#         print(k)
+#         break
+#
+#     k += 1
+#
+# print(arr.index(search))
 
 # --------------------------------------------
+
