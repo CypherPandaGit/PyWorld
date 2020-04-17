@@ -1,4 +1,11 @@
-# PyWorld
+# PyWorld log
+
+17.April 2020
+- Functions, Classes, Arrays and some mini side learning as Flask and Pandas
+
+4.April 2020
+- Mini project Sorter - DONE
+- I think it took me one whole day. Maybe two.
 
 30.Mär 2020
 - OOP
