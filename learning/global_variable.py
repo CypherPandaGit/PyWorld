@@ -1,12 +1,15 @@
 a = 10
+print(id(a))
 
 
 def something():
-    global a
-
     a = 15
 
+    x = globals()['a']
+    print(id(x))
     print('this is inside ', a)
+
+    globals()['a'] = 15
 
 
 something()
