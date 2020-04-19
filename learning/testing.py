@@ -195,10 +195,40 @@
 #     if value == search:
 #         print(k)
 #         break
-#
 #     k += 1
 #
 # print(arr.index(search))
 
 # --------------------------------------------
+
+# def person(name, **data):
+#
+#     print(name)
+#
+#     for i, j in data.items():
+#         print(i, j)
+#
+#
+# person('Roman', age=99, city='Wien', tel=438234567,)
+
+# ---------------------------------------------
+
+# def fib(f):
+#
+#     x = 0
+#     y = 1
+#
+#     print(x)
+#     print(y)
+#
+#     for i in range(2, f):
+#         z = x + y
+#         x = y
+#         y = z
+#         print(z)
+#
+#
+# fib(10)
+
+# ----------------------------------------------
 
