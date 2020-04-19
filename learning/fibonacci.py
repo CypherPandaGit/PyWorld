@@ -3,14 +3,21 @@ def fib(f):
     x = 0
     y = 1
 
-    print(x)
-    print(y)
+    if f == 1:
+        print(x)
 
-    for i in range(2, f):
-        z = x + y
-        x = y
-        y = z
-        print(z)
+    elif f < 1:
+        print('error')
+
+    else:
+        print(x)
+        print(y)
+
+        for i in range(2, f):
+            z = x + y
+            x = y
+            y = z
+            print(z)
 
 
 fib(10)
