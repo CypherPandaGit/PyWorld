@@ -253,22 +253,46 @@
 
 # ------------------------------------------------
 
-class Car:
+# class Car:
+#
+#     wheels = 4
+#
+#     def __init__(self):
+#         self.mil = 10
+#         self.com = "BMW"
+#
+#
+# c1 = Car()
+# c2 = Car()
+#
+# c1.mil = 9
+# c1.com = "AUDI"
+# c2.mil = 23
+# c2.com = "JAGUAR"
+#
+# print(c1.mil, c1.com, c1.wheels)
+# print(c2.mil, c2.com, c2.wheels)
 
-    wheels = 4
 
-    def __init__(self):
-        self.mil = 10
-        self.com = "BMW"
+# ----------------------------------------------------
+
+class Student:
+
+    school = 'University'
+
+    def __init__(self, m1, m2, m3):
+        self.m1 = m1
+        self.m2 = m2
+        self.m3 = m3
+
+    def average(self):
+        return (self.m1 + self.m2 + self.m3)/3
 
 
-c1 = Car()
-c2 = Car()
+s1 = Student(43, 23, 98)
+s2 = Student(34, 55, 78)
 
-c1.mil = 9
-c1.com = "AUDI"
-c2.mil = 23
-c2.com = "JAGUAR"
 
-print(c1.mil, c1.com, c1.wheels)
-print(c2.mil, c2.com, c2.wheels)
+print(s1.average())
+print(s2.average())
+
