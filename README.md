@@ -1,5 +1,9 @@
 # PyWorld log
 
+20.May 2020
+- Still learning some important things outside of Git. Algos, math etc.
+- Udemy, YouTube and books are my best friends now. #Python
+
 17.April 2020
 - Functions, Classes, Arrays and some mini side learning as Flask and Pandas
 
