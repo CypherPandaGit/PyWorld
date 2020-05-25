@@ -276,25 +276,25 @@
 
 # ----------------------------------------------------
 
-class Student:
-
-    school = 'University'
-
-    def __init__(self, m1, m2, m3):
-        self.m1 = m1
-        self.m2 = m2
-        self.m3 = m3
-
-    def average(self):
-        return (self.m1 + self.m2 + self.m3)/3
-
-
-s1 = Student(43, 23, 98)
-s2 = Student(34, 55, 78)
-
-
-print(s1.average())
-print(s2.average())
+# class Student:
+#
+#     school = 'University'
+#
+#     def __init__(self, m1, m2, m3):
+#         self.m1 = m1
+#         self.m2 = m2
+#         self.m3 = m3
+#
+#     def average(self):
+#         return (self.m1 + self.m2 + self.m3)/3
+#
+#
+# s1 = Student(43, 23, 98)
+# s2 = Student(34, 55, 78)
+#
+#
+# print(s1.average())
+# print(s2.average())
 
 # --------------------------------------------------
 
@@ -303,6 +303,16 @@ class Student:
     def __init__(self, name, rollno):
         self.name = name
         self.rollno = rollno
+
+    def show(self):
+        print(self.name, self.rollno)
+
+
+    class Laptop:
+
+        def __init__(self):
+            self.brand = brand
+            self.cpu = cpu
 
 
 s1 = Student('Jay', 2)
