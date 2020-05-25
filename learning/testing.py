@@ -303,6 +303,7 @@ class Student:
     def __init__(self, name, rollno):
         self.name = name
         self.rollno = rollno
+        self.lap = self.Laptop()
 
     def show(self):
         print(self.name, self.rollno)
@@ -311,11 +312,16 @@ class Student:
     class Laptop:
 
         def __init__(self):
-            self.brand = brand
-            self.cpu = cpu
+            self.brand = 'Apple'
+            self.cpu = 'i7'
+            self.ram = 15
 
 
 s1 = Student('Jay', 2)
 s2 = Student('Jennifer', 1)
 
 s1.show()
+
+laps1 = s1.lap.brand
+
+print(laps1)
