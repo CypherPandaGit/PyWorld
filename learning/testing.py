@@ -307,6 +307,7 @@ class Student:
 
     def show(self):
         print(self.name, self.rollno)
+        self.lap.show()
 
 
     class Laptop:
@@ -316,12 +317,11 @@ class Student:
             self.cpu = 'i7'
             self.ram = 15
 
+        def show(self):
+            print(self.brand, self.cpu, self.ram)
+
 
 s1 = Student('Jay', 2)
 s2 = Student('Jennifer', 1)
 
 s1.show()
-
-laps1 = s1.lap.brand
-
-print(laps1)
