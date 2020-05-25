@@ -298,30 +298,64 @@
 
 # --------------------------------------------------
 
-class Student:
+# class Student:
+#
+#     def __init__(self, name, rollno):
+#         self.name = name
+#         self.rollno = rollno
+#         self.lap = self.Laptop()
+#
+#     def show(self):
+#         print(self.name, self.rollno)
+#         self.lap.show()
+#
+#
+#     class Laptop:
+#
+#         def __init__(self):
+#             self.brand = 'Apple'
+#             self.cpu = 'i7'
+#             self.ram = 15
+#
+#         def show(self):
+#             print(self.brand, self.cpu, self.ram)
+#
+#
+# s1 = Student('Jay', 2)
+# s2 = Student('Jennifer', 1)
+#
+# s1.show()
 
-    def __init__(self, name, rollno):
-        self.name = name
-        self.rollno = rollno
-        self.lap = self.Laptop()
+# ---------------------------------------------------
 
-    def show(self):
-        print(self.name, self.rollno)
-        self.lap.show()
+# class A:
+#
+#     def feature1(self):
+#         print('Feature 1 working.')
+#
+#     def feature2(self):
+#         print('Feature 2 working too.')
+#
+#
+# class B(A):
+#
+#     def feature3(self):
+#         print('We have also feature #3.')
+#
+#     def feature4(self):
+#         print('Feature 4? What else?')
+#
+#
+# a1 = A()
+# b1 = B()
+#
+# a1.feature1()
+# a1.feature2()
+#
+# b1.feature1()
+# b1.feature2()
+# b1.feature3()
+# b1.feature4()
 
+# --------------------------------------------
 
-    class Laptop:
-
-        def __init__(self):
-            self.brand = 'Apple'
-            self.cpu = 'i7'
-            self.ram = 15
-
-        def show(self):
-            print(self.brand, self.cpu, self.ram)
-
-
-s1 = Student('Jay', 2)
-s2 = Student('Jennifer', 1)
-
-s1.show()
